@@ -1,0 +1,21 @@
+<script lang="ts" setup>
+import { add } from '@/utils/fn-utils.js'
+
+const add10 = add(10)
+</script>
+
+<template>
+  <h1>Accueil</h1>
+
+  <p>
+    <span class="fr-icon-ancient-gate-fill"></span> <!-- Exemple icône DSFR -->
+  </p>
+
+  <p>
+    {{ add10(5) }}
+  </p>
+
+  <p>
+    <VIcon name="ri-flag-line" />  <!-- Exemple icône oh-vue-icon -->
+  </p>
+</template>
